@@ -32,4 +32,9 @@ h2 {
 .navigation {
     background-color: var(--purple);
 }
- 
+
+.contact {
+    color: #643499;
+    font-size:30px;
+    padding: 10px;
+}
