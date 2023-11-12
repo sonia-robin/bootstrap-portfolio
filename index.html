@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sonia Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body p-3" data-bs-theme="dark">
+    <nav class="navigation navbar navbar-expand-lg border-body p-3 navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Sonia</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,55 +18,56 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="#skills">Skills</a>
+                <a class="nav-link active" href="#hero">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#work">Work</a>
+                <a class="nav-link" aria-current="page" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#about">About Me</a>
+                <a class="nav-link" aria-current="page" href="#work">Work</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              
             </ul>
           </div>
         </div>
       </nav>
 
     <!-- Hero section - Jumbotron -->
-    <!-- <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <!-- <div class="row flex-lg-row-reverse align-items-center g-5 py-5 p-5 m-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="./images/profile-pic.jpg" class="d-block mx-lg-auto img-fluid" alt="Profile Image" width="700" height="500" loading="lazy">
+        <img src="./images/profile-pic.jpg" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Profile Image" width=35% loading="lazy">
       </div>
       <div class="col-lg-6 text-center">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to my portfolio!</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+        <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div>
     </div> -->
-    <div class="p-5 bg-body-tertiary rock-bg">
+    <div class="p-5 bg-body-tertiary rock-bg hero hero-section">
         <div class="container-fluid py-5 jumbo-copy text-center">
-          <h1 class="display-5 fw-bold">Welcome ty my portfolio!</h1>
-          <p class="col-md-12 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <img class="rounded-circle" src="./images/profile-pic.jpg" alt="Profile Picture" width="30%">
+          <h1 class="display-5 fw-bold">Welcome to my portfolio!</h1>
+          <p class="col-md-12 fs-4">Hi, my name is Sonia and I am a passionate front-end developer based in Birmingham, United Kindom.</p>
+          <img class="rounded-circle" src="./images/profile-pic.jpg" alt="Profile Picture" width="25%">
         </div>
     </div>
 
     <!-- Skills section -->
-  <div id="skills" class="skills p-5">
+  <div id="skills" class="skills p-5 text-center">
     <h2 class="text-center">My Top Skills</h2>
     <div class="container d-flex justify-content-center">
       <div class="row">
-        <div class="col-4 col-md-2"> <img src="./images/icons8-html-5-144.svg" alt="HTML 5 icon"></div>
-        <div class="col-4 col-md-2"> <img src="./images/icons8-css-144.svg" alt="CSS icon"></div>
-        <div class="col-4 col-md-2"> <img src="./images/icons8-javascript-144.svg" alt="JS icon"></div>
-        <div class="col-4 col-md-2"> <img src="./images/icons8-bootstrap-144.svg" alt="Bootstrap icon"></div>
-        <div class="col-4 col-md-2"> <img src="./images/icons8-react-native-144.svg" alt="React icon"></div>
-        <div class="col-4 col-md-2"> <img src="./images/icons8-git-144.svg" alt="Git icon"></div>
+        <div class="col-4 col-md-2"> <img src="./images/icons8-html-48.svg" alt="HTML 5 icon"></div>
+        <div class="col-4 col-md-2"> <img src="./images/icons8-css-48.svg" alt="CSS icon"></div>
+        <div class="col-4 col-md-2"> <img src="./images/icons8-javascript-48.svg" alt="JS icon"></div>
+        <div class="col-4 col-md-2"> <img src="./images/icons8-bootstrap-48.svg" alt="Bootstrap icon"></div>
+        <div class="col-4 col-md-2"> <img src="./images/icons8-react-native-48.svg" alt="React icon"></div>
+        <div class="col-4 col-md-2"> <img src="./images/icons8-git-48.svg" alt="Git icon"></div>
       </div>
     </div>
   </div>  
@@ -80,6 +82,7 @@
           <div class="card-body">
             <h5 class="card-title">Project 1</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-secondary button">GitHub</a>
           </div>
         </div>
       </div>
@@ -89,6 +92,7 @@
           <div class="card-body">
             <h5 class="card-title">Project 2</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-secondary button">GitHub</a>
           </div>
         </div>
       </div>
