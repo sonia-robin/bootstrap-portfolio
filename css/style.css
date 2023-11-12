@@ -1,0 +1,32 @@
+:root {
+    --purple: #643499
+}
+
+.navigation {
+    background-color: var(--purple);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.hero-section {
+    margin-top: 40px;
+}
+
+.button {
+    background-color: var(--purple);
+    border: none;
+}
+
+.button:hover {
+    background-color: #8042C3;
+    transition: 0.5s;  
+}
+
+.button:focus {
+    background-color: #8042C3;  
+}
+
+.button:active {
+    background-color: #8042C3;
+}
