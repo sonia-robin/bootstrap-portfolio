@@ -1,17 +1,12 @@
 :root {
-    --purple: #643499
+    --purple: #643499;
 }
 
-.navigation {
-    background-color: var(--purple);
-    position: fixed;
-    top: 0;
-    width: 100%;
+h2 {
+    margin-bottom: 20px;
 }
 
-.hero-section {
-    margin-top: 40px;
-}
+/* Buttons style */
 
 .button {
     background-color: var(--purple);
@@ -20,7 +15,8 @@
 
 .button:hover {
     background-color: #8042C3;
-    transition: 0.5s;  
+    transition: 0.5s; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
 }
 
 .button:focus {
@@ -30,3 +26,10 @@
 .button:active {
     background-color: #8042C3;
 }
+
+/* Navigation bar */
+
+.navigation {
+    background-color: var(--purple);
+}
+ 
