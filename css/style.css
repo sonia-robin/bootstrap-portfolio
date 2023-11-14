@@ -1,9 +1,22 @@
 :root {
     --purple: #643499;
+    --light-purple: #8042C3;
 }
 
 h2 {
     margin-bottom: 20px;
+}
+
+a {
+    color: #643499;
+}
+
+a:hover {
+    color: var(--light-purple);
+}
+
+a:active {
+    color: var(--purple);
 }
 
 /* Buttons style */
@@ -14,17 +27,17 @@ h2 {
 }
 
 .button:hover {
-    background-color: #8042C3;
+    background-color: var(--light-purple);
     transition: 0.5s; 
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
 }
 
 .button:focus {
-    background-color: #8042C3;  
+    background-color: var(--light-purple);  
 }
 
 .button:active {
-    background-color: #8042C3;
+    background-color: var(--light-purple);
 }
 
 /* Navigation bar */
@@ -38,3 +51,4 @@ h2 {
     font-size:30px;
     padding: 10px;
 }
+
