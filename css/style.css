@@ -29,7 +29,7 @@ a:active {
 .button:hover {
     background-color: var(--light-purple);
     transition: 0.5s; 
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.8)
 }
 
 .button:focus {
@@ -52,3 +52,19 @@ a:active {
     padding: 10px;
 }
 
+/* Footer */
+footer {
+    color: white;
+    background-color: var(--purple);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .button {
+    color: var(--purple);
+    background-color: white;
+}
+
+footer a {
+    color: white;
+}
